@@ -9,18 +9,21 @@
 <body>
 	<div id="wrapper">
 	    <header>
-		    <a id="headerLogo" href="#">Wiki<span class="logoInBlue">Poli</span></a>
-		    <div id="nav">
-			    <a class="navLinks" href="#">3<i class="fa fa-bell left"></i></a>
-			    <a class="navLinks" href="#">Home</a>
-			    <a class="navLinks" href="#">Settings</a>
-			    <a class="navLinks" href="#"><i class="fa fa-user right"></i>John Doe</a>
-			    <button id="headerButton" class="navLinks" type="click">Log Out</button>
+	    	<div id="headerLogoDiv">
+		        <a id="headerLogo" href="#"><img alt="logo" src="https://res.cloudinary.com/fabianuzukwu/image/upload/v1571749198/c09e9odiqy2cvkosfubl.png"></a>
 		    </div>
-		    <div class="burger">
+
+		    <div id="burger" class="burgerToggle">
 			    <div class="line1"></div>
 			    <div class="line2"></div>
 			    <div class="line3"></div>
+		    </div>
+		    <div id="nav" class="links">
+			    <a class="navLinks alert" href="#">3<i class="fa fa-bell left alert"></i></a>
+			    <a class="navLinks" href="#">Home</a>
+			    <a id="target" class="navLinks" href="#">Settings</a>
+			    <a class="navLinks" href="#"><i class="fa fa-user right"></i>John Doe</a>
+			    <button id="headerButton" class="navLinks" type="click">Log Out</button>
 		    </div>
 	    </header>
 	    <form id="form">
@@ -62,7 +65,9 @@
 		    </div>
 	    </div>
 	    <footer id="footer">
-		    <div id="footerLogo">Wiki<span class="logoInBlue">Poli</span></div>
+	    	<div id="footerLogoDiv">
+	    		<a id="footerLogo" href="#"><img id="footerLogo" alt="logo" src="https://res.cloudinary.com/fabianuzukwu/image/upload/v1571749198/c09e9odiqy2cvkosfubl.png"></a>
+	    	</div>
 		    <div id="footerLinks">
 		        <a href="#">Privacy policy</a>
 		        <a href="#">About WikiPoli</a>
