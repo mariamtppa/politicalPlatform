@@ -273,8 +273,16 @@ a:hover, button:hover {
 		margin-top: inherit;
 	}
 
+	#form {
+		padding-right: 10px;
+	}
+
+	#focus {
+		padding-left: 10px;
+	}
+
 	#nav{
-		width: 25%;
+		width: 35%;
 		padding-top: 10px;
 		padding-bottom: 10px;
 		display: flex;
