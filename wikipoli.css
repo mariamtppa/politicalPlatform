@@ -67,6 +67,8 @@ header {
 	background-color: #6D9BF1;
 	color: #ffffff;
 	border: none;
+	outline: none;
+	cursor: pointer;
 }
 
 .alert {
@@ -92,6 +94,7 @@ header {
 	font-weight: normal;
 	font-style: normal;
 	padding-left: 5px;
+	outline: none;
 }
 
 #formButton {
@@ -103,6 +106,8 @@ header {
 	padding: 10px 15px;
 	width: 100px;
 	height: 45px;
+	border: none;
+	outline: none;
 	cursor: pointer;
 }
 
@@ -221,6 +226,9 @@ header {
 	width: 100px;
 	padding: 5px;
 	font-size: 16px;
+	border: none;
+	outline: none;
+	cursor: pointer;
 }
 
 .deleteMyAccount {
@@ -237,13 +245,21 @@ header {
 	width: 150px;
 	padding: 5px;
 	font-size: 16px;
+	border: none;
+	outline: none;
+	cursor: pointer;
 }
 
-#viewSettingsContent button {
+#viewSettingsContent select {
     background-color: #6D9BF1;
 	color: #ffffff;
+	width: 100px;
+	height: 40px;
 	padding: 5px;
 	font-size: 16px;
+	border: none;
+	outline: none;
+	cursor: pointer;
 }
 
 #viewSettingsContent button i {
@@ -478,15 +494,12 @@ a:hover, button:hover {
 		padding: 2px;
 	}
 
-	#viewSettingsContent button {
+	#viewSettingsContent select {
         width: 80px;
 		font-size: 14px;
 		padding: 2px;
     }
 
-    #viewSettingsContent button i {
-		font-size: 14px;
-    }
 
 }
 
@@ -512,6 +525,10 @@ a:hover, button:hover {
 		flex-direction: column;
 		justify-content: center;
 		margin:initial;
+	}
+
+	#formButton, #form input{
+		height: 40px;
 	}
 
 	#footerLinks a {
@@ -563,6 +580,14 @@ a:hover, button:hover {
 
 	.edit span {
 
+	}
+
+	#header button {
+		height: 35px;
+	}
+
+	#formButton, #form input {
+		height: 35px;
 	}
 
 	.rightInnerWrapper p {
