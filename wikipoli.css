@@ -204,6 +204,12 @@ header {
 	color: #213DCD;
 }
 
+.fa-toggle-off {
+	font-size: 35px;
+	color: #213DCD;
+	display: none;
+}
+
 .doneButton {
 	display: flex;
 	justify-content: flex-end;
@@ -291,7 +297,7 @@ header {
 
 .edit span {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: flex-end;
 	width: 20%;
 }
 
